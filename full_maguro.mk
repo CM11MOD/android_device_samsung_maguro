@@ -35,6 +35,7 @@ $(call inherit-product, device/samsung/maguro/device.mk)
 PRODUCT_NAME := full_maguro
 PRODUCT_DEVICE := maguro
 PRODUCT_BRAND := Android
+
 PRODUCT_MODEL := AOSP on Maguro
-#PRODUCT_LOCALES := zh_CN zh_TW zh_HK en_US
+PRODUCT_LOCALES := zh_CN zh_TW zh_HK en_US
 PRODUCT_RESTRICT_VENDOR_FILES := false
